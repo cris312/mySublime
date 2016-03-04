@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
-	"font_size": 13,
+	"font_size": 12,
+	"auto_complete_commit_on_tab":true,
 	"ignored_packages":
 	[
 		"Vintage"

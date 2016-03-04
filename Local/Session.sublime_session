@@ -4,7 +4,7 @@
 		"/home/bnupc/下载/usr"
 	],
 	"last_version": 3103,
-	"last_window_id": 5,
+	"last_window_id": 6,
 	"log_indexing": false,
 	"settings":
 	{
@@ -23,18 +23,39 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 392.0,
-				"last_filter": "",
+				"height": 127.0,
+				"last_filter": "insta",
 				"selected_items":
 				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"setting",
+						"Preferences: Settings - User"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"rein",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"c",
+						"Set Syntax: C"
+					]
 				],
-				"width": 392.0
+				"width": 400.0
 			},
 			"console":
 			{
 				"height": 146.0,
 				"history":
 				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 				]
 			},
 			"distraction_free":
@@ -48,6 +69,8 @@
 			},
 			"file_history":
 			[
+				"/home/bnupc/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/bnupc/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/usr/program/web_session/data/galFiltered.csv-11946_7296014050611931888.json",
 				"/home/bnupc/桌面/a.txt",
 				"/home/bnupc/桌面/a.html",
@@ -109,17 +132,21 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"",
+						"~/桌面/untitled.c"
+					]
 				],
 				"width": 0.0
 			},
 			"select_project":
 			{
-				"height": 0.0,
+				"height": 500.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 380.0
 			},
 			"select_symbol":
 			{
@@ -154,42 +181,48 @@
 			"buffers":
 			[
 				{
-					"contents": "#include<stdio.h>\nint main()\n{\n	printf(\"\\n\");\n	return 0;\n}",
-					"file": "/home/bnupc/桌面/untitled.c",
-					"file_size": 43,
-					"file_write_time": 131014826528344345,
+					"file": "/home/bnupc/桌面/a.html",
 					"settings":
 					{
-						"buffer_size": 58,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "",
-					"file": "/home/bnupc/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-					"file_size": -1,
-					"file_write_time": -1,
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 104,
 						"line_ending": "Unix"
 					}
 				}
 			],
-			"build_system": "",
+			"build_system": "Packages/C++/C++ Single File.sublime-build",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 81.0,
+				"height": 127.0,
 				"last_filter": "setting",
 				"selected_items":
 				[
 					[
 						"setting",
 						"Preferences: Settings - User"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
 					],
 					[
 						"key",
@@ -204,7 +237,7 @@
 						"Set Syntax: C"
 					]
 				],
-				"width": 392.0
+				"width": 400.0
 			},
 			"console":
 			{
@@ -225,7 +258,12 @@
 			},
 			"file_history":
 			[
+				"/home/bnupc/桌面/untitled.c",
+				"/home/bnupc/桌面/b.cpp",
+				"/home/bnupc/桌面/b.pp",
 				"/home/bnupc/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/bnupc/.config/sublime-text-3/Packages/User/c.sublime-snippet",
+				"/home/bnupc/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 				"/usr/program/web_session/data/galFiltered.csv-11946_7296014050611931888.json",
 				"/home/bnupc/桌面/a.txt",
 				"/home/bnupc/桌面/a.html",
@@ -234,7 +272,7 @@
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -248,6 +286,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"printf"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -270,39 +309,11 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/bnupc/桌面/untitled.c",
+							"file": "/home/bnupc/桌面/a.html",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 58,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										58,
-										58
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/bnupc/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 0,
+								"buffer_size": 104,
 								"regions":
 								{
 								},
@@ -315,13 +326,13 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 0,
 							"type": "text"
 						}
 					]
@@ -329,11 +340,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 30.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 40.0
 			},
 			"layout":
 			{
@@ -358,16 +369,20 @@
 				]
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 142.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
-			"pinned_build_system": "",
+			"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
 			"position": "0,1,0,0,0,0,0,0,0,1366,768",
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
